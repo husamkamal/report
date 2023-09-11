@@ -1,0 +1,324 @@
+@media (max-width: 575.98px) and (min-width: 200px){
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+     }
+     .img-logo {
+      display: none;
+    }
+     .aside {
+         position: fixed;
+         width: 18rem;
+         right: 0;
+         z-index: 3;
+         box-shadow: 1rem 3rem 4rem #faf1e2;
+         height: 100vh;
+         padding-right: 1.8rem;
+         display: none;
+     }
+      aside {
+         display: none;
+      }
+      .sidebar {
+        z-index: 3;
+      }
+     .aside .sidebar a {
+         width: 100%;
+         height: 3.4rem;        
+     }
+     .aside .close {
+         display: inline-block;
+         cursor: pointer;
+     }
+     main {
+         margin-top: 4rem;
+         padding: 0 1rem;
+     }
+     main .analysis-boxex {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .key-communications {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+     }
+     .oilChart {
+         margin-bottom: 25px;
+         width: 100%;
+     }
+     .chart {
+         width: 100%;
+     }
+     .total-analysis-year, .total-analysis-month, .total-analysis-day {
+         width: 100%;
+     }
+     .right {
+         width: 94%;
+         margin: 0 auto 4rem;
+     }
+     .right .top {
+         position: fixed;
+         top: 0;
+         left: 0;
+         align-items: center;
+         padding: 0 0.8rem;
+         height: 4.6rem;
+         width: 100%;
+         margin: 0;
+         z-index: 2;
+         box-shadow: 0 0rem 1rem var(--color-primary);       
+     }
+     .right .top .theme-toggler {
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+     }
+     .right .profile .info {
+         display: none;
+     }
+     .right .top button {
+         display: inline-block;
+         cursor: pointer;
+         position: absolute;
+         right: 1.5rem;
+     }
+     .right .top button ion-icon {
+         font-size: 2rem;
+     }
+     .recent-updates .updates .update {
+         margin-bottom: 1rem;
+         width: 100%;
+     }
+     .canvas-con {
+         width: 100%;
+     }
+     
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+       width: 100%;
+       grid-template-columns: 1fr;
+    }
+    .img-logo {
+        display: none;
+      }
+    .aside {
+        position: fixed;
+        width: 18rem;
+        right: 0;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem #faf1e2;
+        height: 100vh;
+        padding-right: 1.8rem;
+        display: none;
+    }
+     aside {
+        display: none;
+     }
+     .sidebar {
+        z-index: 3;
+      }
+    .aside .sidebar a {
+        width: 100%;
+        height: 3.4rem;        
+    }
+    .aside .close {
+        display: inline-block;
+        cursor: pointer;
+    }
+    main {
+        margin-top: 4rem;
+        padding: 0 1rem;
+    }
+    main .analysis-boxex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .key-communications {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .oilChart {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .chart {
+        width: 100%;
+    }
+    .total-analysis-year, .total-analysis-month, .total-analysis-day {
+        width: 100%;
+    }
+    .right {
+        width: 94%;
+        margin: 0 auto 4rem;
+    }
+    .right .top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: center;
+        padding: 0 0.8rem;
+        height: 4.6rem;
+        width: 100%;
+        margin: 0;
+        z-index: 2;
+        box-shadow: 0 0rem 1rem var(--color-primary);       
+    }
+    .right .top .theme-toggler {
+       width: 4.4rem;
+       position: absolute;
+       left: 66%;
+    }
+    .right .profile .info {
+        display: none;
+    }
+    .right .top button {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 3rem;
+    }
+    .right .top button ion-icon {
+        font-size: 2rem;
+    }
+    .recent-updates .updates .update {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .canvas-con {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+     }
+     .img-logo {
+        display: none;
+      }
+     .aside {
+         position: fixed;
+         width: 18rem;
+         right: 0;
+         z-index: 3;
+         box-shadow: 1rem 3rem 4rem #faf1e2;
+         height: 100vh;
+         padding-right: 1.8rem;
+         display: none;
+     }
+     .sidebar {
+        z-index: 3;
+      }
+      aside {
+         display: none;
+      }
+     .aside .sidebar a {
+         width: 100%;
+         height: 3.4rem;        
+     }
+     .aside .close {
+         display: inline-block;
+         cursor: pointer;
+     }
+     main {
+         margin-top: 4rem;
+         padding: 0 1rem;
+     }
+     main .analysis-boxex {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .key-communications {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+     }
+     .oilChart {
+         margin-bottom: 25px;
+         width: 100%;
+     }
+     .chart {
+         width: 100%;
+     }
+     .total-analysis-year, .total-analysis-month, .total-analysis-day {
+         width: 100%;
+     }
+     .right {
+         width: 94%;
+         margin: 0 auto 4rem;
+     }
+     .right .top {
+         position: fixed;
+         top: 0;
+         left: 0;
+         align-items: center;
+         padding: 0 0.8rem;
+         height: 4.6rem;
+         width: 100%;
+         margin: 0;
+         z-index: 2;
+         box-shadow: 0 0rem 1rem var(--color-primary);       
+     }
+     .right .top .theme-toggler {
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+     }
+     .right .profile .info {
+         display: none;
+     }
+     .right .top button {
+         display: inline-block;
+         cursor: pointer;
+         position: absolute;
+         right: 3rem;
+     }
+     .right .top button ion-icon {
+         font-size: 2rem;
+     }
+     .recent-updates .updates .update {
+         margin-bottom: 1rem;
+         width: 100%;
+     }
+     .canvas-con {
+         width: 100%;
+     }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 7rem auto 23rem;
+    overflow-x: hidden;
+  }
+  aside .logo {
+    display: none;
+  }
+  aside .sidebar h3 {
+    display: none;
+  }
+  aside .sidebar a {
+    width: 5.6rem;
+  }
+  .button-pdf {
+    margin-top: 7.8rem;
+  }
+  .right .top {
+    margin-left: 15px;
+  }
+  .chartBox {
+    max-width: 744px;
+    height: 352px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+
+}
